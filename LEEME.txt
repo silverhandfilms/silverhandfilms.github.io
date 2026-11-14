@@ -1,23 +1,12 @@
-SILVERHAND FILMS — WEB
-======================
+SILVERHAND FILMS — WEB v2
 
-CÓMO SUBIRLA A GITHUB PAGES (gratis)
-1. Entra a github.com y crea una cuenta (ideal: usuario "silverhandfilms").
-2. Botón "New repository". Nombre del repositorio: silverhandfilms.github.io
-   (tiene que ser exactamente tu-usuario.github.io). Márcalo como Public y crea.
-3. En el repositorio: "Add file" > "Upload files". Arrastra TODO el contenido
-   de esta carpeta (index.html y la carpeta assets) y pulsa "Commit changes".
-4. Espera 1–2 minutos y entra a https://silverhandfilms.github.io
+SUBIR A GITHUB
+1. Entra a tu repositorio silverhandfilms.github.io > pestaña Code.
+2. Add file > Upload files. Arrastra TODO el contenido de esta carpeta
+   (index.html, LEEME.txt y la carpeta assets). Los archivos con el mismo nombre se reemplazan.
+3. Commit changes. Espera 1-2 minutos y recarga con Ctrl + F5.
 
-CAMBIOS RÁPIDOS (abre index.html con el Bloc de notas o VS Code)
-- WhatsApp y mensaje automático: busca "Configuración rápida" al final del archivo.
-- Agregar un video: busca "Para agregar un video" y copia un bloque <article class="work">.
-  data-yt = el código del short (lo que va después de /shorts/ en el link).
-  data-cat = deporte, alimentos o digital.
-- Tu foto: guárdala como assets/jose.jpg (vertical 4:5) y sigue la nota en la sección "jose".
-- Link para mandar por Facebook a quien busca a una persona: https://silverhandfilms.github.io/#jose
-
-Después de subirla, para que la vista previa se vea bien al compartir el link en
-WhatsApp/Facebook, cambia en index.html:
-  content="assets/og-image.png"  ->  content="https://silverhandfilms.github.io/assets/og-image.png"
-(usa tu usuario real si es distinto).
+CAMBIOS RÁPIDOS (index.html)
+- WhatsApp y mensaje: busca "Configuración rápida".
+- Agregar un video de YouTube: busca "Para agregar un video".
+- Textos de cada cliente: busca el nombre del cliente y cambia la línea <p> de al lado.
